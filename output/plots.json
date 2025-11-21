@@ -1,0 +1,456 @@
+{
+    "scatter": {
+        "title": "Gráficos de dispersión (scatter)",
+        "subtitle": "Resultados guardados en la carpeta output/scatter",
+        "items": [
+            {
+                "type": "image",
+                "file": "scatter_age_capital_gain.png",
+                "label": "Scatter Age Capital Gain"
+            },
+            {
+                "type": "image",
+                "file": "scatter_age_capital_loss.png",
+                "label": "Scatter Age Capital Loss"
+            },
+            {
+                "type": "image",
+                "file": "scatter_age_education_num.png",
+                "label": "Scatter Age Education Num"
+            },
+            {
+                "type": "image",
+                "file": "scatter_age_fnlwgt.png",
+                "label": "Scatter Age Fnlwgt"
+            },
+            {
+                "type": "image",
+                "file": "scatter_age_hours_per_week.png",
+                "label": "Scatter Age Hours Per Week"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_gain_age.png",
+                "label": "Scatter Capital Gain Age"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_gain_capital_loss.png",
+                "label": "Scatter Capital Gain Capital Loss"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_gain_education_num.png",
+                "label": "Scatter Capital Gain Education Num"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_gain_fnlwgt.png",
+                "label": "Scatter Capital Gain Fnlwgt"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_gain_hours_per_week.png",
+                "label": "Scatter Capital Gain Hours Per Week"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_loss_age.png",
+                "label": "Scatter Capital Loss Age"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_loss_capital_gain.png",
+                "label": "Scatter Capital Loss Capital Gain"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_loss_education_num.png",
+                "label": "Scatter Capital Loss Education Num"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_loss_fnlwgt.png",
+                "label": "Scatter Capital Loss Fnlwgt"
+            },
+            {
+                "type": "image",
+                "file": "scatter_capital_loss_hours_per_week.png",
+                "label": "Scatter Capital Loss Hours Per Week"
+            },
+            {
+                "type": "image",
+                "file": "scatter_education_num_age.png",
+                "label": "Scatter Education Num Age"
+            },
+            {
+                "type": "image",
+                "file": "scatter_education_num_capital_gain.png",
+                "label": "Scatter Education Num Capital Gain"
+            },
+            {
+                "type": "image",
+                "file": "scatter_education_num_capital_loss.png",
+                "label": "Scatter Education Num Capital Loss"
+            },
+            {
+                "type": "image",
+                "file": "scatter_education_num_fnlwgt.png",
+                "label": "Scatter Education Num Fnlwgt"
+            },
+            {
+                "type": "image",
+                "file": "scatter_education_num_hours_per_week.png",
+                "label": "Scatter Education Num Hours Per Week"
+            },
+            {
+                "type": "image",
+                "file": "scatter_fnlwgt_age.png",
+                "label": "Scatter Fnlwgt Age"
+            },
+            {
+                "type": "image",
+                "file": "scatter_fnlwgt_capital_gain.png",
+                "label": "Scatter Fnlwgt Capital Gain"
+            },
+            {
+                "type": "image",
+                "file": "scatter_fnlwgt_capital_loss.png",
+                "label": "Scatter Fnlwgt Capital Loss"
+            },
+            {
+                "type": "image",
+                "file": "scatter_fnlwgt_education_num.png",
+                "label": "Scatter Fnlwgt Education Num"
+            },
+            {
+                "type": "image",
+                "file": "scatter_fnlwgt_hours_per_week.png",
+                "label": "Scatter Fnlwgt Hours Per Week"
+            },
+            {
+                "type": "image",
+                "file": "scatter_hours_per_week_age.png",
+                "label": "Scatter Hours Per Week Age"
+            },
+            {
+                "type": "image",
+                "file": "scatter_hours_per_week_capital_gain.png",
+                "label": "Scatter Hours Per Week Capital Gain"
+            },
+            {
+                "type": "image",
+                "file": "scatter_hours_per_week_capital_loss.png",
+                "label": "Scatter Hours Per Week Capital Loss"
+            },
+            {
+                "type": "image",
+                "file": "scatter_hours_per_week_education_num.png",
+                "label": "Scatter Hours Per Week Education Num"
+            },
+            {
+                "type": "image",
+                "file": "scatter_hours_per_week_fnlwgt.png",
+                "label": "Scatter Hours Per Week Fnlwgt"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_age_capital_gain.html",
+                "label": "Scatter Interactive Age Capital Gain"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_age_capital_loss.html",
+                "label": "Scatter Interactive Age Capital Loss"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_age_education_num.html",
+                "label": "Scatter Interactive Age Education Num"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_age_fnlwgt.html",
+                "label": "Scatter Interactive Age Fnlwgt"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_age_hours_per_week.html",
+                "label": "Scatter Interactive Age Hours Per Week"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_gain_age.html",
+                "label": "Scatter Interactive Capital Gain Age"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_gain_capital_loss.html",
+                "label": "Scatter Interactive Capital Gain Capital Loss"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_gain_education_num.html",
+                "label": "Scatter Interactive Capital Gain Education Num"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_gain_fnlwgt.html",
+                "label": "Scatter Interactive Capital Gain Fnlwgt"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_gain_hours_per_week.html",
+                "label": "Scatter Interactive Capital Gain Hours Per Week"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_loss_age.html",
+                "label": "Scatter Interactive Capital Loss Age"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_loss_capital_gain.html",
+                "label": "Scatter Interactive Capital Loss Capital Gain"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_loss_education_num.html",
+                "label": "Scatter Interactive Capital Loss Education Num"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_loss_fnlwgt.html",
+                "label": "Scatter Interactive Capital Loss Fnlwgt"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_capital_loss_hours_per_week.html",
+                "label": "Scatter Interactive Capital Loss Hours Per Week"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_education_num_age.html",
+                "label": "Scatter Interactive Education Num Age"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_education_num_capital_gain.html",
+                "label": "Scatter Interactive Education Num Capital Gain"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_education_num_capital_loss.html",
+                "label": "Scatter Interactive Education Num Capital Loss"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_education_num_fnlwgt.html",
+                "label": "Scatter Interactive Education Num Fnlwgt"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_education_num_hours_per_week.html",
+                "label": "Scatter Interactive Education Num Hours Per Week"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_fnlwgt_age.html",
+                "label": "Scatter Interactive Fnlwgt Age"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_fnlwgt_capital_gain.html",
+                "label": "Scatter Interactive Fnlwgt Capital Gain"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_fnlwgt_capital_loss.html",
+                "label": "Scatter Interactive Fnlwgt Capital Loss"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_fnlwgt_education_num.html",
+                "label": "Scatter Interactive Fnlwgt Education Num"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_fnlwgt_hours_per_week.html",
+                "label": "Scatter Interactive Fnlwgt Hours Per Week"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_hours_per_week_age.html",
+                "label": "Scatter Interactive Hours Per Week Age"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_hours_per_week_capital_gain.html",
+                "label": "Scatter Interactive Hours Per Week Capital Gain"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_hours_per_week_capital_loss.html",
+                "label": "Scatter Interactive Hours Per Week Capital Loss"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_hours_per_week_education_num.html",
+                "label": "Scatter Interactive Hours Per Week Education Num"
+            },
+            {
+                "type": "html",
+                "file": "scatter_interactive_hours_per_week_fnlwgt.html",
+                "label": "Scatter Interactive Hours Per Week Fnlwgt"
+            }
+        ]
+    },
+    "boxplot": {
+        "title": "Gráficos de caja (boxplot)",
+        "subtitle": "Resultados guardados en la carpeta output/boxplot",
+        "items": [
+            {
+                "type": "html",
+                "file": "boxplot_interactive_workclass_age.html",
+                "label": "Boxplot Interactive Workclass Age"
+            },
+            {
+                "type": "html",
+                "file": "boxplot_interactive_workclass_capital_gain.html",
+                "label": "Boxplot Interactive Workclass Capital Gain"
+            },
+            {
+                "type": "html",
+                "file": "boxplot_interactive_workclass_capital_loss.html",
+                "label": "Boxplot Interactive Workclass Capital Loss"
+            },
+            {
+                "type": "html",
+                "file": "boxplot_interactive_workclass_education_num.html",
+                "label": "Boxplot Interactive Workclass Education Num"
+            },
+            {
+                "type": "html",
+                "file": "boxplot_interactive_workclass_fnlwgt.html",
+                "label": "Boxplot Interactive Workclass Fnlwgt"
+            },
+            {
+                "type": "html",
+                "file": "boxplot_interactive_workclass_hours_per_week.html",
+                "label": "Boxplot Interactive Workclass Hours Per Week"
+            },
+            {
+                "type": "image",
+                "file": "boxplot_workclass_age.png",
+                "label": "Boxplot Workclass Age"
+            },
+            {
+                "type": "image",
+                "file": "boxplot_workclass_capital_gain.png",
+                "label": "Boxplot Workclass Capital Gain"
+            },
+            {
+                "type": "image",
+                "file": "boxplot_workclass_capital_loss.png",
+                "label": "Boxplot Workclass Capital Loss"
+            },
+            {
+                "type": "image",
+                "file": "boxplot_workclass_education_num.png",
+                "label": "Boxplot Workclass Education Num"
+            },
+            {
+                "type": "image",
+                "file": "boxplot_workclass_fnlwgt.png",
+                "label": "Boxplot Workclass Fnlwgt"
+            },
+            {
+                "type": "image",
+                "file": "boxplot_workclass_hours_per_week.png",
+                "label": "Boxplot Workclass Hours Per Week"
+            }
+        ]
+    },
+    "bar": {
+        "title": "Gráficos de barras (bar)",
+        "subtitle": "Resultados guardados en la carpeta output/bar",
+        "items": [
+            {
+                "type": "html",
+                "file": "bar_interactive_mean_age_workclass.html",
+                "label": "Bar Interactive Mean Age Workclass"
+            },
+            {
+                "type": "html",
+                "file": "bar_interactive_mean_capital_gain_workclass.html",
+                "label": "Bar Interactive Mean Capital Gain Workclass"
+            },
+            {
+                "type": "html",
+                "file": "bar_interactive_mean_capital_loss_workclass.html",
+                "label": "Bar Interactive Mean Capital Loss Workclass"
+            },
+            {
+                "type": "html",
+                "file": "bar_interactive_mean_education_num_workclass.html",
+                "label": "Bar Interactive Mean Education Num Workclass"
+            },
+            {
+                "type": "html",
+                "file": "bar_interactive_mean_fnlwgt_workclass.html",
+                "label": "Bar Interactive Mean Fnlwgt Workclass"
+            },
+            {
+                "type": "html",
+                "file": "bar_interactive_mean_hours_per_week_workclass.html",
+                "label": "Bar Interactive Mean Hours Per Week Workclass"
+            },
+            {
+                "type": "image",
+                "file": "bar_mean_age_workclass.png",
+                "label": "Bar Mean Age Workclass"
+            },
+            {
+                "type": "image",
+                "file": "bar_mean_capital_gain_workclass.png",
+                "label": "Bar Mean Capital Gain Workclass"
+            },
+            {
+                "type": "image",
+                "file": "bar_mean_capital_loss_workclass.png",
+                "label": "Bar Mean Capital Loss Workclass"
+            },
+            {
+                "type": "image",
+                "file": "bar_mean_education_num_workclass.png",
+                "label": "Bar Mean Education Num Workclass"
+            },
+            {
+                "type": "image",
+                "file": "bar_mean_fnlwgt_workclass.png",
+                "label": "Bar Mean Fnlwgt Workclass"
+            },
+            {
+                "type": "image",
+                "file": "bar_mean_hours_per_week_workclass.png",
+                "label": "Bar Mean Hours Per Week Workclass"
+            }
+        ]
+    },
+    "heatmap": {
+        "title": "Mapas de calor (heatmap)",
+        "subtitle": "Resultados guardados en la carpeta output/heatmap",
+        "items": [
+            {
+                "type": "image",
+                "file": "heatmap_corr.png",
+                "label": "Heatmap Corr"
+            },
+            {
+                "type": "html",
+                "file": "heatmap_corr_interactive.html",
+                "label": "Heatmap Corr Interactive"
+            }
+        ]
+    }
+}
