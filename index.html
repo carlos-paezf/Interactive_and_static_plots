@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Galería de Gráficos - Output</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Galería de Gráficos</h1>
+            <p>
+                Visualización dinámica de los resultados guardados en la carpeta
+                <code>output/bar</code>, <code>output/boxplot</code>, <code>output/heatmap</code> y
+                <code>output/bar</code>.
+            </p>
+        </header>
+
+        <main>
+            <!-- Controles -->
+            <div class="controls">
+                <span class="controls-label">Carpeta:</span>
+
+                <button class="filter-btn active" data-folder="scatter">
+                    Scatter
+                    <span class="badge" id="badge-scatter">0</span>
+                </button>
+
+                <button class="filter-btn" data-folder="boxplot">
+                    Boxplot
+                    <span class="badge" id="badge-boxplot">0</span>
+                </button>
+
+                <button class="filter-btn" data-folder="bar">
+                    Bar
+                    <span class="badge" id="badge-bar">0</span>
+                </button>
+
+                <button class="filter-btn" data-folder="heatmap">
+                    Heatmap
+                    <span class="badge" id="badge-heatmap">0</span>
+                </button>
+
+                <span class="controls-label" style="margin-left:1rem;">Tipo:</span>
+                <select id="type-filter">
+                    <option value="all">Todos</option>
+                    <option value="image">Solo imágenes</option>
+                    <option value="html">Solo interactivos</option>
+                </select>
+            </div>
+
+            <!-- Título dinámico -->
+            <section id="gallery-title">
+                <h2 id="section-title"></h2>
+                <p id="section-subtitle"></p>
+            </section>
+
+            <!-- Galería -->
+            <section id="gallery" class="grid"></section>
+
+            <div id="empty-state" class="empty-state" style="display:none;">
+                <strong>No hay elementos para mostrar.</strong>
+                <br />
+                Revisa que los nombres de archivo en el código coincidan con los archivos reales
+                en la carpeta <code>output</code>.
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
