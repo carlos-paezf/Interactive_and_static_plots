@@ -1,0 +1,223 @@
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #1f2937;
+    background: linear-gradient(90deg, #0f172a, #111827);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+header p {
+    margin: 0.3rem 0 0;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+main {
+    padding: 1.5rem 2rem 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.controls-label {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    margin-right: 0.5rem;
+}
+
+button.filter-btn {
+    border: 1px solid #4b5563;
+    background: #111827;
+    color: #e5e7eb;
+    border-radius: 9999px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: background 0.15s ease, transform 0.1s ease, border-color 0.15s ease;
+}
+
+button.filter-btn span.badge {
+    background: #1f2937;
+    border-radius: 9999px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.75rem;
+    color: #9ca3af;
+}
+
+button.filter-btn.active {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+button.filter-btn:hover {
+    transform: translateY(-1px);
+    border-color: #60a5fa;
+}
+
+select {
+    background: #111827;
+    border: 1px solid #4b5563;
+    color: #e5e7eb;
+    border-radius: 9999px;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+section#gallery-title {
+    margin-bottom: 0.75rem;
+}
+
+#gallery-title h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+#gallery-title p {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.3rem;
+}
+
+.card {
+    background: #020617;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid #1f2937;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-3px) translateZ(0);
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.9);
+    border-color: #2563eb;
+}
+
+.card-header {
+    padding: 0.7rem 1rem 0.35rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.card-tag {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.1rem 0.5rem;
+    border-radius: 9999px;
+    border: 1px solid #374151;
+    color: #9ca3af;
+}
+
+.card-body {
+    padding: 0.3rem 0.75rem 0.75rem;
+    flex: 1;
+    display: flex;
+}
+
+.card-body img {
+    border-radius: 0.6rem;
+    border: 1px solid #111827;
+    width: 100%;
+    height: 100%;
+    max-height: 260px;
+    object-fit: contain;
+    background: #020617;
+}
+
+.iframe-wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 260px;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    border: 1px solid #111827;
+    background: #020617;
+    cursor: pointer;
+}
+
+.iframe-wrapper iframe {
+    width: 500%;
+    height: 500%;
+    border: 0;
+    transform-origin: top left;
+    transform: scale(0.2);
+    pointer-events: none;
+}
+
+.badge-type-image {
+    border-color: #22c55e;
+    color: #bbf7d0;
+}
+
+.badge-type-html {
+    border-color: #f59e0b;
+    color: #fed7aa;
+}
+
+.empty-state {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px dashed #4b5563;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.9rem;
+}
+
+.empty-state strong {
+    color: #e5e7eb;
+}
+
+@media (max-width: 600px) {
+
+    header,
+    main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
